@@ -6,20 +6,25 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Meow+Script&display=swap" rel="stylesheet">
     <title>World Clock - Sabina Sigmundová</title>
 </head>
 <body>
     <div class="container">
-        <h1>World Clock</h1>
-
+        <h1> 
+            <div class="name">Sabina's</div>
+            World clock</h1>
+            <h3>Explore the global time zones</h3>
         <select id="city">
-            <option value="">Select a city</option>
-            <option value="current">My current city</option>
-            <Option value="Europe/London">London</Option>
-            <option value="America/New_York">New York</option>
-            <option value="Pacific/Auckland">Auckland</option>
-            <option value="Asia/Tokyo">Tokyo</option>
-            <option value="Pacific/Honolulu">Honolulu</option>
+            <option value=""> 🔎 Select a city</option>
+            <option value="current"> 👣 My current whereabouts </option>
+            <Option value="Europe/London"> 🇬🇧 London</Option>
+            <option value="America/New_York">🇺🇸 New York</option>
+            <option value="Pacific/Auckland">🇦🇺 Auckland</option>
+            <option value="Asia/Tokyo"> 🇯🇵 Tokyo</option>
+            <option value="Pacific/Honolulu"> 🌺 Honolulu</option>
 
         </select>
         <div id="cities">
@@ -40,7 +45,7 @@
         </div>
     </div>
     <footer>
-        This project was coded with 🫶🏼 by <strong>Sabina Sigmundová</strong> and is 
+        This project was coded with 🫶🏼 by <strong class="name"> Sabina Sigmundová</strong> and is 
         <a href="https://github.com/SabinaSig/world-clock" target="_blank">
         open sourced on GitHub 
         </a>
