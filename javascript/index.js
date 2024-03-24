@@ -9,6 +9,16 @@ let dubaiTime = moment().tz("Asia/Dubai");
 dubaiDateElement.innerHTML = dubaiTime.format("MMMM Do YYYY");
 dubaiTimeElement.innerHTML = dubaiTime.format("h:mm:ss [<small>]A[</small>]");
 
+//Mexico
+let mexicoElement = document.querySelector("#mexico");
+if (mexicoElement) {
+let mexicoDateElement = mexicoElement.querySelector(".date");
+let mexicoTimeElement = mexicoElement.querySelector(".time");
+let mexicoTime = moment().tz("Asia/Dubai");
+
+mexicoDateElement.innerHTML = mexicoTime.format("MMMM Do YYYY");
+mexicoTimeElement.innerHTML = mexicoTime.format("h:mm:ss [<small>]A[</small>]");
+
 //Prague
 let pragueElement = document.querySelector("#prague");
 if (pragueElement) {
@@ -18,7 +28,7 @@ let pragueTime = moment().tz("Europe/Prague");
 
 pragueDateElement.innerHTML = pragueTime.format("MMMM Do YYYY");
 pragueTimeElement.innerHTML = pragueTime.format("h:mm:ss [<small>]A[</small>]");
-
+};
 };
 };
 };
